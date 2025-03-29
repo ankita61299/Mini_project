@@ -1,0 +1,39 @@
+# Use an official Python runtime as a parent image
+FROM python:3.10-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the requirements file into the container
+COPY requirements.txt ./
+
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+
+# Copy the rest of the application code into the container
+COPY . ./
+
+# Ensure required directories exist
+RUN mkdir -p data/raw data/processed logs
+
+# Set environment variables for database connection
+ENV DB_NAME=RANDOMUSER \
+    DB_USER=ANKITA123 \
+    DB_PASSWORD=ANKITA \
+    DB_HOST=localhost \
+    DB_PORT=5446
+
+# Expose any ports if needed (for future use)
+EXPOSE 5000
+
+# Define volumes for persistency
+VOLUME ["/app/data", "/app/logs"]
+
+# Set the command to run the application
+CMD ["python", "main.py"]
+
+
+
+
