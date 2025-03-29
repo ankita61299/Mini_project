@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Lola",
+                "last": "Wright"
+            },
+            "location": {
+                "street": {
+                    "number": 3772,
+                    "name": "The Crescent"
+                },
+                "city": "Winchester",
+                "state": "Buckinghamshire",
+                "country": "United Kingdom",
+                "postcode": "B2N 2SY",
+                "coordinates": {
+                    "latitude": "-6.6435",
+                    "longitude": "35.6949"
+                },
+                "timezone": {
+                    "offset": "+1:00",
+                    "description": "Brussels, Copenhagen, Madrid, Paris"
+                }
+            },
+            "email": "lola.wright@example.com",
+            "login": {
+                "uuid": "af176df1-0fa4-45bb-8747-1c1d4c100c75",
+                "username": "lazybird787",
+                "password": "dixie",
+                "salt": "8OttTUVD",
+                "md5": "ce2ed0bbaa432f001cda0ff7d7b36bb1",
+                "sha1": "74a14520189d8b8efbcf6d1b4c8f4d2c8bdaca92",
+                "sha256": "71fb08eebf8b72009304200ae6ac36c2f7e1d2126dca581b133e9dc7552c08d8"
+            },
+            "dob": {
+                "date": "1948-12-19T12:02:02.840Z",
+                "age": 76
+            },
+            "registered": {
+                "date": "2019-05-25T00:41:28.276Z",
+                "age": 5
+            },
+            "phone": "0110177 127 0709",
+            "cell": "07272 448773",
+            "id": {
+                "name": "NINO",
+                "value": "LJ 53 32 72 Z"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/26.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/26.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/26.jpg"
+            },
+            "nat": "GB"
+        }
+    ],
+    "info": {
+        "seed": "299e77d0fb3c93b7",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}
